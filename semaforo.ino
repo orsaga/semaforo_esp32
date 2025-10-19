@@ -20,6 +20,12 @@ void loop() {
   digitalWrite(ledVerde, LOW);
   delay(5000); // 5 segundos
 
+   // Amarillo encendido
+  digitalWrite(ledRojo, LOW);
+  digitalWrite(ledAmarillo, HIGH);
+  digitalWrite(ledVerde, LOW);
+  delay(2000); // 2 segundos
+
   // Verde encendido
   digitalWrite(ledRojo, LOW);
   digitalWrite(ledAmarillo, LOW);
